@@ -18,14 +18,14 @@ exclude:
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://github.com/karinayap
-googleplus_url: 
-instagram_url: 
+github_url: https://github.com/karinayap
+# gitlab_url: 
+# googleplus_url: 
+# instagram_url: 
 linkedin_url: https://www.linkedin.com/in/karina-yap/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # Build settings
 markdown: kramdown
