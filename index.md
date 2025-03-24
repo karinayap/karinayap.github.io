@@ -13,7 +13,7 @@ title: Home
 			<span class="icon fa-home"></span>
 			<div class="content">
 				<h3>Early Years</h3>
-				<p>I grew up in Central Florida with my parents, brother, and sister. You can check out my sister's website at <a href="https://www.kaitlinyap.com">www.kaitlinyap.com</a>. </p>
+				<p>I grew up in Central Florida with my parents, brother, and sister. You can check out my sister's website at <a href="https://www.kaitlinyap.com" target="_blank">www.kaitlinyap.com</a>. </p>
 			</div>
 		</article>
 		<article>
