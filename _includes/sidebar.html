@@ -16,12 +16,21 @@
           </header>
           <ul>
 
-            {% for page in site.pages %}
-            {% if page.title %}
-              <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-            {% endif %}
-          {% endfor %}
+ {% assign ordered_pages = site.pages | where_exp: "page", "page.sidebar_order != nil" %}
+{% assign sorted_ordered_pages = ordered_pages | sort: "sidebar_order" %}
+
+{% assign unordered_pages = site.pages | where_exp: "page", "page.sidebar_order == nil" %}
+{% assign sorted_unordered_pages = unordered_pages | sort_natural: "title" %}
+
+{% assign all_sorted_pages = sorted_ordered_pages | concat: sorted_unordered_pages %}
+
+{% for page in all_sorted_pages %}
+  {% if page.title and page.exclude != true %}
+    <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+  {% endif %}
+{% endfor %}
                      
+ <!--           
             <li>
               <span class="opener">Submenu</span>
               <ul>
@@ -47,8 +56,10 @@
             <li><a href="#">Amet Lacinia</a></li>
           </ul>
         </nav>
+-->
 
-      <!-- Section -->
+<!-- Section
+
         <section>
           <header class="major">
             <h2>Ante interdum</h2>
@@ -72,7 +83,8 @@
           </ul>
         </section>
 
-      <!-- Section -->
+      -->
+      <!-- Section 
         <section>
           <header class="major">
             <h2>Get in touch</h2>
@@ -87,9 +99,11 @@
           </ul>
         </section>
 
+        -->
+
       <!-- Footer -->
         <footer id="footer">
-          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+          <p class="copyright"><br>&copy; {{ site.title }}. All rights reserved. <br><br> Design: <a href="https://html5up.net">HTML5 UP</a> <br> Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
         </footer>
 
     </div>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+sidebar_order: 2
 image: assets/images/aboutme-crop.jpg
 ---
 

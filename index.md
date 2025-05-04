@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+sidebar_order: 1
 ---
 
 <!-- Section -->

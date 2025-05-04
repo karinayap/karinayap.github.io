@@ -7,7 +7,7 @@ sass:
 title: Karina Yap
 subtitle: 
 email: 
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+description:
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
@@ -19,6 +19,7 @@ country:
 phone: 
 exclude: 
   - archive
+  - templates
 
 # Social settings
 500px_url:
