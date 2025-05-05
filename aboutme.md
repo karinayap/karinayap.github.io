@@ -18,4 +18,4 @@ image: assets/images/aboutme-crop.jpg
 <h2>Currently Listening To:</h2>
 <p> The great girly pop summer of 2024 never ended for me </p>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/77EzHW1abwQOfQxRdXsWju?utm_source=generator" width="60%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/77EzHW1abwQOfQxRdXsWju?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
