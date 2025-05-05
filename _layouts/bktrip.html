@@ -1,45 +1,48 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: page
+---
 
-{% include head.html %}
+<h2> Trip Specs </h2>
 
-<body>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-
-                {% include header.html %}
-
-                <!-- Content -->
-                <section>
-                	<header class="main">
-                		<h1>{{ page.title }}</h1>
-                	</header>
-
-                  {% if page.image %}
-                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
-                  {% endif %}
-
-                {{ content }}
-
-              </div>
-          </div>
-
-          {% include sidebar.html %}
-
-      </div>
-
-      {% include footer.html %}
-
-</body>
-
-</html>
+<div class="table-wrapper" style="display: flex; justify-content: left">
+    <table class="alt" style="width: auto; border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <td>Distance</td>
+                <td>{{page.x}}</td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>{{page.type}}</td>
+            </tr>
+            <tr>
+                <td>Trip Length</td>
+                <td>{{page.triplength}}</td>
+            </tr>
+                <tr>
+                <td>Season</td>
+                <td>{{page.season}}</td>
+            </tr>
+            <tr>
+                <td>Elevation gain</td>
+                <td> {{page.z}}</td>
+            </tr>
+            <tr>
+                <td>Starting elevation</td>
+                <td>{{page.z_start}}.</td>
+            </tr>
+            <tr>
+                <td>Max elevation</td>
+                <td>{{page.z_max}}</td>
+            </tr>
+            <tr>
+                <td>Permit(s) needed</td>
+                <td>{{page.permit}}</td>
+            </tr>
+            <tr>
+                <td>Highlights</td>
+                <td>{{page.highlights}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

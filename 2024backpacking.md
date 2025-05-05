@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2024 Backpacking Season
-exclude: true
+main_exclude: true
 ---
 
 <p> 
