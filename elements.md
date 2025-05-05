@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Elements
+main_exclude: true
 ---
 
 <h2 id="content">Sample Content</h2>
