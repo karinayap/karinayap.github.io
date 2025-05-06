@@ -45,7 +45,7 @@ sidebar_order: 3
 		<ul>
             <li>Tent, rainfly, and footprint OR hammock</li>
             <li>Sleeping pad OR hammock underquilt</li>
-            <li>Sleeping pad</li>
+            <li>Sleeping bag</li>
             <li>(Optional) Pillow</li>
             <li>Camp shoes (Crocs!) - honestly a must for me</li>
             <li>Head lamp</li>
