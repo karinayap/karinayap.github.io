@@ -41,7 +41,8 @@ sidebar_order: 1
 	</div>
 </section>
 
-<!-- Section -->
+<!--
+<!-- Section 
 <section>
 	<header class="major">
 		<h2>Ipsum sed dolor</h2>
@@ -97,3 +98,5 @@ sidebar_order: 1
 		</article>
 	</div>
 </section>
+
+-->
