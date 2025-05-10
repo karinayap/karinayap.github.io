@@ -52,7 +52,7 @@ main_exclude: false
 <hr class="major" />
 
 <!--San Bernardino National Forest - San Gorgonio Mountain-->
-<h2>San Bernardino National Forest - San Gorgonio Mountain</h2>
+<h2>San Bernardino National Forest - Mt. San Gorgonio</h2>
 <div class="row">
   <!-- Column 1: Carousel -->
   <div class="6u 12u$(small)">
