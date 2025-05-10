@@ -74,18 +74,18 @@ main_exclude: false
   </div>
 
   <!-- Column 2: Table -->
-  <!-- <div class="6u$ 12u$(small)">
+  <div class="6u$ 12u$(small)">
     <div class="table-wrapper" style="display: flex; justify-content: left">
       <table class="alt" style="width: auto; border-collapse: collapse; font-size: 80%">
         <tbody>
-          <tr><td><b>Distance</b></td><td>10.5 miles total (5.25 miles one-way)</td></tr>
-          <tr><td><b>Type</b></td><td>Out-and-back</td></tr>
+          <tr><td><b>Distance</b></td><td>20.1 miles round trip - we did about 7 miles the first day, and the remaining three miles to the summit plus the whole descent the second day.</td></tr>
+          <tr><td><b>Type</b></td><td>Lollipop</td></tr>
           <tr><td><b>Trip Length</b></td><td>2 days</td></tr>
-          <tr><td><b>Season</b></td><td>Late spring/early summer</td></tr>
-          <tr><td><b>Elevation Info</b></td><td>1,712 ft – starts at 7,414 feet and peaks at 8,401 feet</td></tr>
-          <tr><td><b>Permit(s) needed</b></td><td>Desolation Wilderness Permit for Lake of the Woods<br>CalFire campfire permit to operate a stove (but no campfires allowed)</td></tr>
-          <tr><td><b>Highlights</b></td><td>Alpine lakes, mountains</td></tr>
-          <tr><td><b>Tips</b></td><td>The Echo Lake ferry hits diff on the way back.</td></tr>
+          <tr><td><b>Season</b></td><td>Summer</td></tr>
+          <tr><td><b>Elevation Info</b></td><td>1,712 ft – starts at 6,900 feet and peaks at 11,500 feet</td></tr>
+          <tr><td><b>Permit(s) needed</b></td><td>CalFire campfire permit to operate a stove, check if campfire restrictions are in place.</td></tr>
+          <tr><td><b>Highlights</b></td><td>Summit views</td></tr>
+          <tr><td><b>Tips</b></td><td>My NorCal self is very spoiled, this trail is DRY! Bring lots of water. We filled up at Dry Lake before summitting and descending, and carried two liters each - this was NOT enough!</td></tr>
         </tbody>
       </table>
     </div>
