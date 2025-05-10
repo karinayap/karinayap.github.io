@@ -78,14 +78,14 @@ main_exclude: false
     <div class="table-wrapper" style="display: flex; justify-content: left">
       <table class="alt" style="width: auto; border-collapse: collapse; font-size: 80%">
         <tbody>
-          <tr><td><b>Distance</b></td><td>20.1 miles round trip - we did about 7 miles the first day, and the remaining three miles to the summit plus the whole descent the second day.</td></tr>
+          <tr><td><b>Distance</b></td><td>20.1 miles</td></tr>
           <tr><td><b>Type</b></td><td>Lollipop</td></tr>
           <tr><td><b>Trip Length</b></td><td>2 days</td></tr>
           <tr><td><b>Season</b></td><td>Summer</td></tr>
-          <tr><td><b>Elevation Info</b></td><td>1,712 ft – starts at 6,900 feet and peaks at 11,500 feet</td></tr>
-          <tr><td><b>Permit(s) needed</b></td><td>CalFire campfire permit to operate a stove, check if campfire restrictions are in place.</td></tr>
+          <tr><td><b>Elevation Info</b></td><td>4,678 ft – starts at 6,900 feet and peaks at 11,500 feet</td></tr>
+          <tr><td><b>Permit(s) needed</b></td><td>CalFire campfire permit to operate a stove (check if campfire restrictions are in place).</td></tr>
           <tr><td><b>Highlights</b></td><td>Summit views</td></tr>
-          <tr><td><b>Tips</b></td><td>My NorCal self is very spoiled, this trail is DRY! Bring lots of water. We filled up at Dry Lake before summitting and descending, and carried two liters each - this was NOT enough!</td></tr>
+          <tr><td><b>Tips</b></td><td>Bring lots of water. We filled up at Dry Lake before summitting and descending, and carried two liters each (not enough!).</td></tr>
         </tbody>
       </table>
     </div>
