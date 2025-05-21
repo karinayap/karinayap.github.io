@@ -7,28 +7,30 @@ main_exclude: false
 
 <!--Desolation Wilderness-->
 <h2>Desolation Wilderness - Lake of the Woods</h2>
+<h4><i>June 7-8, 2024</i></h4>
 <div class="row">
   <!-- Column 1: Carousel -->
   <div class="6u 12u$(small)">
     <div class="photo-carousel" id="carousel1">
       <div class="carousel-track">
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Desolation-3.jpg" alt="Lake of the Woods in Desolation Wilderness">
+          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Desolation-3.jpg">
         </div>
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Desolation-1.JPG" alt="A truly glorious nap">
+          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Desolation-1.JPG">
         </div>
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Desolation-2.JPG" alt="Our camp!">
+          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Desolation-2.JPG">
         </div>
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Nature's Fridge.jpg" alt="Nature's fridge">
+          <img src="/assets/images/2024-backpacking/2024-06-Desolation-LotW/Nature's Fridge.jpg">
         </div>
       </div>
         <button class="carousel-button left" onclick="moveSlide(-1, this)">‹</button>
         <button class="carousel-button right" onclick="moveSlide(1, this)">›</button>
     </div>
   </div>
+  <br>
 
   <!-- Column 2: Table -->
   <div class="6u$ 12u$(small)">
@@ -53,25 +55,27 @@ main_exclude: false
 
 <!--San Bernardino National Forest - San Gorgonio Mountain-->
 <h2>San Bernardino National Forest - Mt. San Gorgonio</h2>
+<h4><i>July 5-6, 2024</i></h4>
 <div class="row">
   <!-- Column 1: Carousel -->
   <div class="6u 12u$(small)">
     <div class="photo-carousel" id="carousel2">
       <div class="carousel-track">
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-07-SanGorgonio/SG-1.jpg" alt="Me at the summit">
+          <img src="/assets/images/2024-backpacking/2024-07-SanGorgonio/SG-1.jpg">
         </div>
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-07-SanGorgonio/SG-2.jpg" alt="View up the mountain">
+          <img src="/assets/images/2024-backpacking/2024-07-SanGorgonio/SG-2.jpg">
         </div>
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-07-SanGorgonio/SG-3.jpg" alt="Summit Pop-Tart hits HARD">
+          <img src="/assets/images/2024-backpacking/2024-07-SanGorgonio/SG-3.jpg">
         </div>
       </div>
        <button class="carousel-button left" onclick="moveSlide(-1, this)">‹</button>
        <button class="carousel-button right" onclick="moveSlide(1, this)">›</button>
     </div>
   </div>
+  <br>
 
   <!-- Column 2: Table -->
   <div class="6u$ 12u$(small)">
@@ -79,7 +83,7 @@ main_exclude: false
       <table class="alt" style="width: auto; border-collapse: collapse; font-size: 80%">
         <tbody>
           <tr><td><b>Distance</b></td><td>20.1 miles</td></tr>
-          <tr><td><b>Type</b></td><td>Lollipop</td></tr>
+          <tr><td><b>Type</b></td><td>Loop</td></tr>
           <tr><td><b>Trip Length</b></td><td>2 days</td></tr>
           <tr><td><b>Season</b></td><td>Summer</td></tr>
           <tr><td><b>Elevation Info</b></td><td>4,678 ft – starts at 6,900 feet and peaks at 11,500 feet</td></tr>
@@ -92,24 +96,80 @@ main_exclude: false
   </div>
 </div>
 
+<hr class="major" />
+
+<!--Yosemite National Park - Waterwheel Falls via Glen Aulin-->
+<h2>Yosemite National Park - Waterwheel Falls via Glen Aulin</h2>
+<h3>August 3-4, 2024</h3>
+
+<div class="row">
+  <!-- Column 1: Carousel -->
+  <div class="6u 12u$(small)">
+    <div class="photo-carousel" id="carousel2">
+      <div class="carousel-track">
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-08-Yosemite-Glen Aulin/Waterwheel-2.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-08-Yosemite-Glen Aulin/Waterwheel-1.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-08-Yosemite-Glen Aulin/Waterwheel-3.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-08-Yosemite-Glen Aulin/Waterwheel-4.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-08-Yosemite-Glen Aulin/Waterwheel-5.jpg">
+        </div>
+      </div>
+       <button class="carousel-button left" onclick="moveSlide(-1, this)">‹</button>
+       <button class="carousel-button right" onclick="moveSlide(1, this)">›</button>
+    </div>
+  </div>
+  <br>
+
+  <!-- Column 2: Table -->
+  <div class="6u$ 12u$(small)">
+    <div class="table-wrapper" style="display: flex; justify-content: left">
+      <table class="alt" style="width: auto; border-collapse: collapse; font-size: 80%">
+        <tbody>
+          <tr><td><b>Distance</b></td><td>17.3 miles</td></tr>
+          <tr><td><b>Type</b></td><td>Out-and-back</td></tr>
+          <tr><td><b>Trip Length</b></td><td>2 days</td></tr>
+          <tr><td><b>Season</b></td><td>Summer</td></tr>
+          <tr><td><b>Elevation Info</b></td><td>2,335 ft - starts at 8,592 ft and drops to 6,800 feet.</td></tr>
+          <tr><td><b>Permit(s) needed</b></td><td>Wilderness Permit for Glen Aulin->Cold Canyon/Waterwheel (pass through).</td></tr>
+          <tr><td><b>Highlights</b></td><td>Waterfalls, swimming holes, high country views</td></tr>
+          <tr><td><b>Tips</b></td><td>Poles for the descent are super helpful, and the bathrooms at the Glen Aulin high sierra camp are NICE.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
 <!-- Script for Photo Carousel -->
 <script>
 function moveSlide(direction, button) {
-const carousel = button.closest('.photo-carousel');
-const track = carousel.querySelector('.carousel-track');
-const slides = carousel.querySelectorAll('.photo-slide');
-const slideWidth = slides[0].offsetWidth;
+  const carousel = button.closest('.photo-carousel');
+  const track = carousel.querySelector('.carousel-track');
+  const slides = carousel.querySelectorAll('.photo-slide');
 
-let currentIndex = parseInt(carousel.dataset.currentIndex || '0');
-currentIndex += direction;
+  let currentIndex = parseInt(carousel.dataset.currentIndex || '0');
+  const slideCount = slides.length;
 
-if (currentIndex < 0) currentIndex = 0;
-if (currentIndex >= slides.length) currentIndex = slides.length - 1;
+  // Wrap around index using modulo
+  currentIndex = (currentIndex + direction + slideCount) % slideCount;
 
-track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+  const slideWidth = carousel.clientWidth;
+  track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
 
-carousel.dataset.currentIndex = currentIndex;
+  carousel.dataset.currentIndex = currentIndex;
 }
+</script>
 
