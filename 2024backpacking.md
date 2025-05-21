@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2024 Backpacking Season
-main_exclude: false
+main_exclude: true
 ---
 <p> This is a brief log of all of the backpacking trips I went on in the 2024 season, in chronological order. I have more detailed reviews on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a> but wanted to provide a quick overview of the 2024 season - it was a good one! </p>
 
@@ -100,7 +100,7 @@ main_exclude: false
 
 <!--Yosemite National Park - Waterwheel Falls via Glen Aulin-->
 <h2>Yosemite National Park - Waterwheel Falls via Glen Aulin</h2>
-<h3>August 3-4, 2024</h3>
+<h3><i>August 3-4, 2024</i></h3>
 
 <div class="row">
   <!-- Column 1: Carousel -->
@@ -152,7 +152,7 @@ main_exclude: false
 
 <!--Yosemite National Park - Lyell Canyon-->
 <h2>Yosemite National Park - Lyell Canyon via John Muir Trail</h2>
-<h3>October 5-6, 2024</h3>
+<h3><i>October 5-6, 2024</i></h3>
 
 <div class="row">
   <!-- Column 1: Carousel -->
@@ -197,6 +197,61 @@ main_exclude: false
   </div>
 </div>
 
+<hr class="major" />
+
+<!--Big Sur/Ventana Wilderness - Pine Ridge Trail-->
+<h2>Big Sur/Ventana Wilderness - Terrace Creek Campground via Pine Ridge Trail</h2>
+<h3><i>October 18-19, 2024</i></h3>
+<p>My first solo trip!</p>
+
+<div class="row">
+  <!-- Column 1: Carousel -->
+  <div class="6u 12u$(small)">
+    <div class="photo-carousel" id="carousel2">
+      <div class="carousel-track">
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-10-BigSur-TerraceCreek/TC-0.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-10-BigSur-TerraceCreek/TC-1.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-10-BigSur-TerraceCreek/TC-2.jpg">
+        </div>
+        <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-10-BigSur-TerraceCreek/TC-3.jpg">
+        </div>
+         <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-10-BigSur-TerraceCreek/TC-4.jpg">
+        </div>
+         <div class="photo-slide">
+          <img src="/assets/images/2024-backpacking/2024-10-BigSur-TerraceCreek/TC-5.jpg">
+        </div>
+      </div>
+       <button class="carousel-button left" onclick="moveSlide(-1, this)">‹</button>
+       <button class="carousel-button right" onclick="moveSlide(1, this)">›</button>
+    </div>
+  </div>
+  <br>
+
+  <!-- Column 2: Table -->
+  <div class="6u$ 12u$(small)">
+    <div class="table-wrapper" style="display: flex; justify-content: left">
+      <table class="alt" style="width: auto; border-collapse: collapse; font-size: 80%">
+        <tbody>
+          <tr><td><b>Distance</b></td><td>10.6 miles</td></tr>
+          <tr><td><b>Type</b></td><td>Out-and-back</td></tr>
+          <tr><td><b>Trip Length</b></td><td>2 days</td></tr>
+          <tr><td><b>Season</b></td><td>Early Fall</td></tr>
+          <tr><td><b>Elevation Info</b></td><td>About 1,200 feet - starts at 321 feet and peaks at 1,500 feet within the first three miles, then pretty up and down after that.</td></tr>
+          <tr><td><b>Permit(s) needed</b></td><td>CalFire permit to operate a camp stove (campfires not permitted).</td></tr>
+          <tr><td><b>Highlights</b></td><td>Ocean views and pretty forests.</td></tr>
+          <tr><td><b>Tips</b></td><td>You have to camp at designated campsites, so get their early if you have your heart set on a specific one. This trail continues all the way out to Sykes Hot Springs, but I think all of the earlier campsites are also fantastic.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
 
 
