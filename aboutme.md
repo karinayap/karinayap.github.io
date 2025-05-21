@@ -16,6 +16,6 @@ image: assets/images/aboutme-crop.jpg
 <hr class="major" />
 
 <h2>Currently Listening To:</h2>
-<p> The great girly pop summer of 2024 never ended for me </p>
+<p> If trail mix was a playlist. </p>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/77EzHW1abwQOfQxRdXsWju?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0MIEpqftrP9Qg9EZ7kIs2W?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
