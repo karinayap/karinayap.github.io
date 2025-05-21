@@ -3,7 +3,7 @@ layout: page
 title: Backpack With Me!
 sidebar_order: 3
 ---
-<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. I'm a diehard leave-no-trace girly - my number one priority on the trail is minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!
+<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. My number one priority on the trail is to minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!
 
 <div class="row">
      <div class = "4u 12u$(medium)">
