@@ -152,7 +152,7 @@ main_exclude: false
 
 <!--Yosemite National Park - Lyell Canyon-->
 <h2>Yosemite National Park - Lyell Canyon via John Muir Trail</h2>
-<h3>August 3-4, 2024</h3>
+<h3>October 5-6, 2024</h3>
 
 <div class="row">
   <!-- Column 1: Carousel -->
@@ -166,7 +166,7 @@ main_exclude: false
           <img src="/assets/images/2024-backpacking/2024-09-Yosemite-Lyell/Lyell-2.jpg">
         </div>
         <div class="photo-slide">
-          <img src="/assets/images/2024-backpacking/2024-09-Yosemite-Lyell/Lyell-3/jpg">
+          <img src="/assets/images/2024-backpacking/2024-09-Yosemite-Lyell/Lyell-3.jpg">
         </div>
         <div class="photo-slide">
           <img src="/assets/images/2024-backpacking/2024-09-Yosemite-Lyell/Lyell-4.jpg">
@@ -183,14 +183,14 @@ main_exclude: false
     <div class="table-wrapper" style="display: flex; justify-content: left">
       <table class="alt" style="width: auto; border-collapse: collapse; font-size: 80%">
         <tbody>
-          <tr><td><b>Distance</b></td><td>17.3 miles</td></tr>
+          <tr><td><b>Distance</b></td><td>11 miles</td></tr>
           <tr><td><b>Type</b></td><td>Out-and-back</td></tr>
           <tr><td><b>Trip Length</b></td><td>2 days</td></tr>
-          <tr><td><b>Season</b></td><td>Summer</td></tr>
-          <tr><td><b>Elevation Info</b></td><td>2,335 ft - starts at 8,592 ft and drops to 6,800 feet.</td></tr>
-          <tr><td><b>Permit(s) needed</b></td><td>Wilderness Permit for Glen Aulin->Cold Canyon/Waterwheel (pass through).</td></tr>
-          <tr><td><b>Highlights</b></td><td>Waterfalls, swimming holes, high country views</td></tr>
-          <tr><td><b>Tips</b></td><td>Poles for the descent are super helpful, and the bathrooms at the Glen Aulin high sierra camp are NICE.</td></tr>
+          <tr><td><b>Season</b></td><td>Late Summer</td></tr>
+          <tr><td><b>Elevation Info</b></td><td>520 feet (relatively flat!)</td></tr>
+          <tr><td><b>Permit(s) needed</b></td><td>Wilderness Permit for Lyell</td></tr>
+          <tr><td><b>Highlights</b></td><td>Rivers and swimming holes, high country views.</td></tr>
+          <tr><td><b>Tips</b></td><td>Great campsites rights before the junction to Ireland Lake.</td></tr>
         </tbody>
       </table>
     </div>
