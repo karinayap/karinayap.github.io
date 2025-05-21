@@ -3,7 +3,26 @@ layout: page
 title: Backpack With Me!
 sidebar_order: 3
 ---
-<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. My number one priority on the trail is to minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!
+<div class="row">
+	<div class="6u 12u$(small)">
+		<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. My number one priority on the trail is to minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!</p>
+	</div>
+	<div class="6u$ 12u$(small)">
+		<div class="box">
+        <h4>My Trips This Year</h4>
+        <ul>
+        {% for page in site.pages %}
+        {% if page.layout == "bktrip" and page.submenu == "2025" %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        </ul>
+        <ul>
+        <li><a href="https://karinayap.github.io/2024backpacking.html" target="_blank">and my 2024 trips!</a></li>
+        </ul>
+    </div>
+	</div>
+</div>
 
 <div class="row">
      <div class = "4u 12u$(medium)">
@@ -118,6 +137,7 @@ sidebar_order: 3
         </ul>
 	</div>
 </div>
+</section>
 
 
 
