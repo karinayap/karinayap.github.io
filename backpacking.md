@@ -4,53 +4,39 @@ title: Backpack With Me!
 sidebar_order: 3
 ---
 <div class="row">
-	<div class="6u 12u$(small)">
-		<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. My number one priority on the trail is to minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!</p>
-	</div>
-	<div class="6u$ 12u$(small)">
-		<div class="box">
-        <h4>My Trips This Year</h4>
-        <ul>
-        {% for page in site.pages %}
-        {% if page.layout == "bktrip" and page.submenu == "2025" %}
-        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-        </ul>
-        <ul>
-        <li><a href="https://karinayap.github.io/2024backpacking.html" target="_blank">and my 2024 trips!</a></li>
-        </ul>
-    </div>
-	</div>
+	<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. My number one priority on the trail is to minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!</p>
 </div>
 
-<div class="row">
-     <div class = "4u 12u$(medium)">
-    <span class="image fit"><img src="assets/images/backpacking-uyf.jpg"></span>
-    </div>
-    <div class="4u 12u$(medium)">           
-            <h3>Things I Care About</h3>
-            <div class="box">
-            <ul>
-                <li>Keeping wildlife wild</li>
-                <li>Packing out trash</li>
-                <li>Chilling at camp</li>
-                <li>Fun trail food</li>
-            </ul>
-			</div>                   
-    </div>
-    <div class="4u 12u$(medium)">
-        <h3>Things I Don't</h3>
-        <div class="box">
-                <ul>
-                <li>Maximizing mileage</li>
-                <li>Ultralight gear (to be honest, I couldn't tell you what my base weight is)</li>
-                <li>Constant gear upgrades - what I have works for me</li>
-                <li>Powering through bad weather (not worth!)</li>
-             </ul>
-        </div>
-    </div>
+<!--Recent Posts-->
+<h2>My Adventure Journal</h2>
+<p>I started this website as way to document my outdoor adventures - here are my journal entries about my most recent trips!</p>
+
+<div class="photo-grid">
+  <a href="/blog/post1" class="photo-tile">
+    <img src="/assets/images/pic04.jpg" alt="Desolation Lake">
+    <h3>Desolation Lake</h3>
+    <p>A peaceful evening in the Sierras.</p>
+  </a>
+  
+  <a href="/blog/post2" class="photo-tile">
+    <img src="/assets/images/pic01.jpg" alt="Granite Trail">
+    <h3>Granite Trail</h3>
+    <p>Following the ridgeline through open rock fields.</p>
+  </a>
+
+  <a href="/blog/post3" class="photo-tile">
+    <img src="/assets/images/pic02.jpg" alt="Sunrise Hike">
+    <h3>Sunrise Hike</h3>
+    <p>Early light at 10,000 feet.</p>
+  </a>
+
+  <a href="/blog/post4" class="photo-tile">
+    <img src="/assets/images/pic03.jpg" alt="Campfire Reflections">
+    <h3>Campfire Reflections</h3>
+    <p>Stories shared under a starry sky.</p>
+  </a>
 </div>
+
 
 <section>
 <hr class="major" />
@@ -140,4 +126,25 @@ sidebar_order: 3
 </section>
 
 
+<!--JavaScript for Photo Carousel-->
+
+<script>
+function moveBlogCarousel(direction, button) {
+  const carousel = button.closest('.photo-strip-carousel');
+  const track = carousel.querySelector('.carousel-strip-track');
+  const items = carousel.querySelectorAll('.carousel-strip-item');
+  const visibleCount = Math.floor(carousel.offsetWidth / items[0].offsetWidth);
+
+  let index = parseInt(carousel.dataset.currentIndex || '0');
+  const total = items.length;
+
+  // Loop around
+  index = (index + direction + total) % total;
+
+  const itemWidth = items[0].offsetWidth + parseFloat(getComputedStyle(track).gap) || 0;
+  track.style.transform = `translateX(-${index * itemWidth}px)`;
+
+  carousel.dataset.currentIndex = index;
+}
+</script>
 

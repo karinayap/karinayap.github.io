@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <h2> Trip Specs </h2>
 
 <div class="table-wrapper" style="display: flex; justify-content: left">
@@ -45,3 +46,23 @@ layout: page
         </tbody>
     </table>
 </div>
+
+<!-- Script for Photo Carousel -->
+<script>
+function moveSlide(direction, button) {
+  const carousel = button.closest('.photo-carousel');
+  const track = carousel.querySelector('.carousel-track');
+  const slides = carousel.querySelectorAll('.photo-slide');
+
+  let currentIndex = parseInt(carousel.dataset.currentIndex || '0');
+  const slideCount = slides.length;
+
+  // Wrap around index using modulo
+  currentIndex = (currentIndex + direction + slideCount) % slideCount;
+
+  const slideWidth = carousel.clientWidth;
+  track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+
+  carousel.dataset.currentIndex = currentIndex;
+}
+</script>
