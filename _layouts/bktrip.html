@@ -2,9 +2,30 @@
 layout: page
 ---
 
+<!-- Photo Carousel Loop f -->
+{% if page.photo_folder and page.photo_files %}
+<div class="photo-carousel" id="carousel1">
+  <div class="carousel-track">
+    {% for photo in page.photo_files %}
+    <div class="photo-slide">
+      <img src="{{ page.photo_folder }}/{{ photo }}" alt="Photo {{ forloop.index }}">
+    </div>
+    {% endfor %}
+  </div>
+  <button class="carousel-button left" onclick="moveSlide(-1, this)">‹</button>
+  <button class="carousel-button right" onclick="moveSlide(1, this)">›</button>
+</div>
+{% endif %}
+
+
+<hr class="major" />
+
+<!-- Trip Specs -->
 <h2> Trip Specs </h2>
 
-<div class="table-wrapper" style="display: flex; justify-content: left">
+<div class="row">
+<div class="6u 12u$(small)">
+<div class="table-wrapper" style="display: flex; justify-content: center">
     <table class="alt" style="width: auto; border-collapse: collapse;">
         <tbody>
             <tr>
@@ -29,7 +50,7 @@ layout: page
             </tr>
             <tr>
                 <td>Starting elevation</td>
-                <td>{{page.z_start}}.</td>
+                <td>{{page.z_start}}</td>
             </tr>
             <tr>
                 <td>Max elevation</td>
@@ -46,6 +67,15 @@ layout: page
         </tbody>
     </table>
 </div>
+</div>
+
+<div class="6u 12u$(small)">
+{{ page.alltrails_embed }}
+</div>
+
+</div>
+
+{{content}}
 
 <!-- Script for Photo Carousel -->
 <script>
