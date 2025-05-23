@@ -32,13 +32,13 @@
         {% endfor %}
 
         <!--Backpacking Submenu-->
-        {% assign bktrips = site.pages | where: "layout", "bktrip" | where: "submenu", "2025" | sort: "date" %}
+        {% assign bktrips = site.posts | where: "layout", "bktrip" | where: "submenu", "2025" | sort: "date" %}
         <li>
           <span class="opener">2025 Backpacking Trips</span>
           <ul>
-            {% for page in site.pages %}
+            {% for page in site.posts %}
               {% if page.layout == "bktrip" and page.submenu == "2025" %}
-                <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+                <li><a href="{{ page.url | relative_url }}">{{ page.short_title }}</a></li>
               {% endif %}
             {% endfor %}
           </ul>

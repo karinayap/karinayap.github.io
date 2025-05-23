@@ -12,18 +12,35 @@
   transition: transform 0.3s ease;
   border: none !important;
   box-shadow: none !important;
-
 }
+
 
 .photo-tile img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius:0;
 }
 
+
 .photo-tile:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
+  color: map-get($palette, fg) !important;
 }
+
+.photo-tile a {
+  color: map-get($palette, fg-bold) !important;
+  text-decoration: none;
+}
+
+.photo-tile a:hover {
+  color: map-get($palette, fg) !important;
+}
+
+.photo-tile .post-tagline {
+  font-size: 0.75rem; // slightly smaller than the title
+}
+
 
 /* Responsive: 2 columns on tablet, 1 on mobile */
 @media (max-width: 900px) {

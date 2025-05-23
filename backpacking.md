@@ -9,32 +9,32 @@ sidebar_order: 3
 
 <!--Recent Posts-->
 <h2>My Adventure Journal</h2>
-<p>I started this website as way to document my outdoor adventures - here are my journal entries about my most recent trips!</p>
+<p>I started this website as way to document my outdoor adventures. Check out my journal entries about my most recent trips!</p>
 
+<!-- Recent Blog Posts Grid -->
 <div class="photo-grid">
-  <a href="/blog/post1" class="photo-tile">
-    <img src="/assets/images/pic04.jpg" alt="Desolation Lake">
-    <h3>Desolation Lake</h3>
-    <p>A peaceful evening in the Sierras.</p>
-  </a>
-  
-  <a href="/blog/post2" class="photo-tile">
-    <img src="/assets/images/pic01.jpg" alt="Granite Trail">
-    <h3>Granite Trail</h3>
-    <p>Following the ridgeline through open rock fields.</p>
-  </a>
-
-  <a href="/blog/post3" class="photo-tile">
-    <img src="/assets/images/pic02.jpg" alt="Sunrise Hike">
-    <h3>Sunrise Hike</h3>
-    <p>Early light at 10,000 feet.</p>
-  </a>
-
-  <a href="/blog/post4" class="photo-tile">
-    <img src="/assets/images/pic03.jpg" alt="Campfire Reflections">
-    <h3>Campfire Reflections</h3>
-    <p>Stories shared under a starry sky.</p>
-  </a>
+  {% assign recent_posts = site.posts | where: "layout", "bktrip" | limit: 4 %}
+  {% if recent_posts.size > 0 %}
+    {% for post in recent_posts %}
+      <div class="photo-tile">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.thumbnail %}
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+          {% else %}
+            <div class="no-thumbnail">No thumbnail available</div>
+          {% endif %}
+          <div class="post-content">
+            <h3 class="post-title">{{ post.short_title | default: post.title }}</h3>
+            {% if post.tagline %}
+              <p class="post-tagline">{{ post.tagline }}</p>
+            {% endif %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No recent bktrip posts found.</p>
+  {% endif %}
 </div>
 
 
