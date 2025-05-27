@@ -31,13 +31,13 @@
           {% endif %}
         {% endfor %}
 
-        <!--Backpacking Submenu-->
-        {% assign bktrips = site.posts | where: "layout", "bktrip" | where: "submenu", "2025" | sort: "date" %}
+        <!--Adventure Journal Submenu-->
+        {% assign outdoorss = site.posts | where: "layout", "outdoors" | where: "submenu", "2025" | sort: "date" %}
         <li>
-          <span class="opener">2025 Backpacking Trips</span>
+          <span class="opener">Adventures of 2025</span>
           <ul>
             {% for page in site.posts %}
-              {% if page.layout == "bktrip" and page.submenu == "2025" %}
+              {% if page.layout == "outdoors" and page.submenu == "2025" %}
                 <li><a href="{{ page.url | relative_url }}">{{ page.short_title }}</a></li>
               {% endif %}
             {% endfor %}

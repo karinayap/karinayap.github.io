@@ -1,15 +1,15 @@
 ---
 layout: outdoors
 
-title: Yosemite National Park - Lost Canyon and Bunnell Cascade (May 2025)
-short_title: May 2025 - Yosemite's Lost Canyon
+title: Whitewater Rafting on the Middle Fork of the American River (May 2025)
+short_title: May 2025 - American River Whitewater Rafting
 tagline: Where you end up going when you can't get a permit to stay at the Little Yosemite Valley High Sierra Camp.
 thumbnail: /assets/images/2025-backpacking/2025-05-Yosemite-LYV/LYV-thumbnail.jpg
-x: 13 miles total (7.5 miles one-way)
-type: Out-and-back
-z: 2,575 ft- starts at about 4,000 feet and peaks at about 6,300 feet.
-triplength: 2 days
-permit: Wilderness permit, for Happy Isles (Past LYV) - reserved through Recreation.gov
+x: 18 miles
+type: Point-to-point raftitng trip
+z: 2,575 ft
+triplength: 2 days - camped by the launch point on the first day, and rafted the second day. 
+permit: No permit, but book through a good outfitter. I love "https://www.americanwhitewater.com/"
 highlights: Valley views, waterfalls, rivers 
 season: Late spring
 main_exclude: true

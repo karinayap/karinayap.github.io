@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Backpack With Me!
+title: My Adventure Journal
 sidebar_order: 3
 ---
 <div class="row">
-	<p> Backpacking is one of my favorite ways to explore the outdoors! I love being able to experience the solitutde of the backcountry, challenge myself with difficult hikes, and disconnect from the hustle and bustle of everyday life. My number one priority on the trail is to minimize impact so that we can continue to recreate responsibily and experience the wilderness. I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!</p>
+	<p> One of my favorite things about living in the Bay Area is how accessible the outdoors is. I do a lot of backpacking, hiking, and other outdoor adventures in the summer. I love being able to experience the solitutde and beauty of the wilderness, recreate responsibly (leave no trace!), and disconnect from the hustle and bustle of everyday life. For hikes and backpacking trips, I try to review the trails that I have done with up-to-date information on trail conditions, weather, bugs, camping tips, and anything else I think is useful - catch me on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a>!</p>
 </div>
 
 <!--Recent Posts-->
-<h2>My Adventure Journal</h2>
-<p>I started this website as way to document my outdoor adventures. Check out my journal entries about my most recent trips!</p>
+<h2>My 2025 Adventures</h2>
+<p>I started this website as way to document and share my outdoor adventures. Check out my journal entries about my most recent trips!</p>
 
 <!-- Recent Blog Posts Grid -->
 <div class="photo-grid">
-  {% assign recent_posts = site.posts | where: "layout", "bktrip" | limit: 4 %}
+  {% assign recent_posts = site.posts | where: "layout", "outdoors" | limit: 4 %}
   {% if recent_posts.size > 0 %}
     {% for post in recent_posts %}
       <div class="photo-tile">
@@ -33,7 +33,7 @@ sidebar_order: 3
       </div>
     {% endfor %}
   {% else %}
-    <p>No recent bktrip posts found.</p>
+    <p>No recent outdoors posts found.</p>
   {% endif %}
 </div>
 
@@ -41,8 +41,8 @@ sidebar_order: 3
 <section>
 <hr class="major" />
 
-<h2 id="content">My Packing List</h2>
-<p>This is definitely not a strict packing list, and I'll adjust it accordingly based on the needs of my trip, any area restrictions, and the people I'm going with, but here is a list of the items that I'll bring with me on a typical trip</p>
+<h2 id="content">Packing for Backpacking Trips</h2>
+<p>(For myself more than anything), this is the list of stuff that I typically bring on backpacking trips.</p>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -70,7 +70,7 @@ sidebar_order: 3
             <li>Beanie</li>
          </ul>
 	</div>
-	<div class="4u$ 12u$(medium)">
+	<div class="4u 12u$(medium)">
 	<h3>Food and Drinks</h3>
 		<ul>
             <li>Coffee for breakfast</li>
@@ -96,6 +96,7 @@ sidebar_order: 3
             <li>Toothbrush</li>
             <li>Toothpaste tabs</li>
             <li>Hand sanitizer</li>
+            <li>First aid kit</li>
             <li>Meds - ibuprofen and allergy meds</li>
         </ul>
 	</div>
@@ -106,7 +107,6 @@ sidebar_order: 3
             <li>Bandana</li>
             <li>Pack towel</li>
             <li>Small multitool</li>
-            <li>First aid kit </li>
             <li>Permit</li>
             <li>Trail map</li>
             <li>Boots</li>
