@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2024 Backpacking Season
+title: 2024 Adventure Journal
 main_exclude: true
 ---
 <p> This is a brief log of all of the backpacking trips I went on in the 2024 season, in chronological order. I have more detailed reviews on <a href = "https://www.alltrails.com/members/karina-yap-1" target="_blank">AllTrails</a> but wanted to provide a quick overview of the 2024 season - it was a good one! </p>

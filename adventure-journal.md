@@ -9,7 +9,7 @@ sidebar_order: 3
 
 <!--Recent Posts-->
 <h2>My 2025 Adventures</h2>
-<p>I started this website as way to document and share my outdoor adventures. Check out my journal entries about my most recent trips!</p>
+<p>I started this website as way to document and share my outdoor adventures. Check out my journal entries about my most recent trips of this year!</p>
 
 <!-- Recent Blog Posts Grid -->
 <div class="photo-grid">
@@ -37,6 +37,9 @@ sidebar_order: 3
   {% endif %}
 </div>
 
+<ul class="actions">
+  <li><a href="{% link 2024backpacking.md %}" class="button big">And find my recap of my 2024 adventures here!</a></li>
+</ul>
 
 <section>
 <hr class="major" />
