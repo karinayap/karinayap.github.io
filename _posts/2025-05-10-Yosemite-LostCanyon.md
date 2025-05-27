@@ -23,7 +23,7 @@ photo_files:
   - "LYV-4.jpeg"
   - "LYV-6.jpg"
   - "LYV-7.jpg"
-alltrails_embed: |
+map: |
   <iframe class="alltrails" src="https://www.alltrails.com/widget/map/map-may-3-2025-d1942a3?elevationDiagram=false&u=i&sh=0a5lyp" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 ---
 

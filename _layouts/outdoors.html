@@ -62,7 +62,22 @@ layout: page
 </div>
 
 <div class="6u 12u$(small)">
-{{ page.alltrails_embed }}
+{% if page.map %}
+  {% if page.map contains 'alltrails.com' or page.map contains '<iframe' %}
+    <!-- Display embedded AllTrails map -->
+    {% if page.map contains '<iframe' %}
+      {{ page.map }}
+    {% else %}
+      <iframe src="{{ page.map }}" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Trail Map"></iframe>
+    {% endif %}
+  {% elsif page.map contains '.jpg' or page.map contains '.jpeg' or page.map contains '.png' %}
+    <!-- Display image map from assets -->
+    <img src="{{ page.map | relative_url }}" alt="" style="width: 100%; max-width: 800px; height: auto;">
+  {% else %}
+    <!-- Fallback: try to display as image first, then as embed -->
+    <img src="{{ page.map | relative_url }}" alt="" style="width: 100%; max-width: 800px; height: auto;">
+  {% endif %}
+{% endif %}
 </div>
 
 </div>
