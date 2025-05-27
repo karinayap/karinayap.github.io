@@ -7,7 +7,7 @@ tagline: The perfect way to kick off summer!
 thumbnail: /assets/images/2025-backpacking/2025-05-Yosemite-LYV/LYV-thumbnail.jpg
 x: 18 miles
 type: Point-to-point rafting trip
-z: ABout 23 FPM gradient, starting at Oxbow Dam and ending at Greenwood Bridge 
+z: About 23 FPM gradient, starting at Oxbow Dam and ending at Greenwood Bridge 
 triplength: 2 days - camped by the launch point on the first day, and rafted the second day. 
 permit: 'No permit, but book through a good outfitter. I love <a href="https://www.americanwhitewater.com/" target="_blank" rel="noopener">American Whitewater Expeditions</a>!'
 highlights: Class IV rapids, canyon views, Tunnel Chute, the AWE deli lunch on the river. 
