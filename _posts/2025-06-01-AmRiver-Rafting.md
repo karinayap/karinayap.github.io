@@ -4,7 +4,7 @@ layout: outdoors
 title: Whitewater Rafting on the Middle Fork of the American River (June 2025)
 short_title: June 2025 - American River Whitewater Rafting
 tagline: The perfect way to kick off summer!
-thumbnail: /assets/images/2025-backpacking/2025-05-Yosemite-LYV/LYV-thumbnail.jpg
+thumbnail: /assets/images/2025-WWRaft/MiddleFork-map.jpg
 x: 18 miles
 type: Point-to-point rafting trip
 z: About 23 FPM gradient, starting at Oxbow Dam and ending at Greenwood Bridge 
