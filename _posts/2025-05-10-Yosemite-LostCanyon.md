@@ -3,7 +3,7 @@ layout: outdoors
 
 title: Yosemite National Park - Lost Canyon and Bunnell Cascade (May 2025)
 short_title: May 2025 - Yosemite's Lost Canyon
-tagline: Where you end up going when you can't get a permit to stay at the Little Yosemite Valley High Sierra Camp.
+tagline: Where you end up going when you can't get a permit to stay in LYV.
 thumbnail: /assets/images/2025-backpacking/2025-05-Yosemite-LYV/LYV-thumbnail.jpg
 x: 13 miles total (7.5 miles one-way)
 type: Out-and-back
