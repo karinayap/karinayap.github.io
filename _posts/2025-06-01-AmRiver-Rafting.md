@@ -27,7 +27,7 @@ map: "/assets/images/2025-WWRaft/MiddleFork-map.jpg"
 ---
 
 <div class="row">
-<p>Coming soon!</p>
+<p>I have done trips on the American River a handful of times over the years (once on the Middle Fork, and once the year after on the South Fork). This year, the Middle Fork opened to rafting on Memorial Day weekend, and we booked our trip for the very next weekend. We booked our trip through <a href="https://www.americanwhitewater.com/" target="_blank">American Whitewater Expeditions</a>.</p>
 </div>
 
 <div class="row">
