@@ -33,12 +33,12 @@
 
 // Palette.
 	$palette: (
-		bg:					#F4EEE7,
-		bg-alt:				#E2D6C7,
-		fg:					#3E2F25,
-		fg-bold:			#2C211B,
+		bg:					#F4EEE7, //Background
+		bg-alt:				#E2D6C7, // Sidebar
+		fg:					#3E2F25, //Scroll buttotns
+		fg-bold:			#2C211B, //Title (bold) text
 		fg-light:			#6B594E,
 		border:				rgba(154, 108, 83, 0.6),
 		border-bg:			rgba(244, 238, 231, 0.3),
-		accent:				#B05C41  
+		accent:				#B05C41  //Line under title, button color
 	);

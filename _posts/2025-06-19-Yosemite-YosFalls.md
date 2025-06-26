@@ -3,7 +3,7 @@ layout: outdoors
 
 title: Yosemite National Park - Upper Yosemite Falls
 short_title: June 2025 - Upper Yosemite Falls
-tagline: or Stairmaster? 
+tagline: ...or Stairmaster?
 thumbnail: /assets/images/2025-backpacking/2025-06-Yosemite-YosemiteFalls/YosFalls-1.jpg
 x: 13.1 miles
 type: Out-and-back
