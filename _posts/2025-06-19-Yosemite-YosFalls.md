@@ -18,6 +18,13 @@ date: 2025-06-19
 photo_folder: "/assets/images/2025-backpacking/2025-06-Yosemite-YosemiteFalls"
 photo_files:
   - "YosFalls-3.JPG"
+  - "YosFalls-2.JPG"
+  - "YosFalls-4.JPG"
+  - "YosFalls-5.JPG"
+  - "YosFalls-6.JPG"
+  - "YosFalls-7.JPG"
+  - "YosFalls-8.JPG"
+  - "YosFalls-9.JPG"
 map: |
   <iframe class="alltrails" src="https://www.alltrails.com/widget/map/upper-yosemite-falls-cd3bbc2?elevationDiagram=false&u=i&sh=0a5lyp" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 ---
