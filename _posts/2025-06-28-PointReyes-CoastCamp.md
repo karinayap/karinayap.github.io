@@ -17,9 +17,9 @@ submenu: "2025"
 date: 2025-06-28
 photo_folder: "/assets/images/2025-backpacking/2025-06-PtReyes-CoastCamp"
 photo_files:
-  - "CC-1.JPG"
-  - "CC-2.JPG"
-  - "CC-3.JPG"
+  - "CC-1.jpg"
+  - "CC-2.jpg"
+  - "CC-3.jpg"
   - "CC-4.jpg"
   - "CC-5.JPG"
 map: |
