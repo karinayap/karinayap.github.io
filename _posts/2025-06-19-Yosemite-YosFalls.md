@@ -7,7 +7,7 @@ tagline: ...or Stairmaster?
 thumbnail: /assets/images/2025-backpacking/2025-06-Yosemite-YosemiteFalls/YosFalls-1.JPG
 x: 13.1 miles
 type: Out-and-back
-z: 4,738 ft - starts at tabout 3,990 ft and peaks at about 7,352 ft.
+z: 4,738 ft - starts at about 3,990 ft and peaks at about 7,352 ft.
 triplength: 3 days
 permit: Wilderness permit, for Yosemite Falls - reserved through Recreation.gov
 highlights: Valley views, waterfalls, chilling by the river 
