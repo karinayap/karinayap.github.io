@@ -23,7 +23,7 @@ photo_files:
   - "CC-4.jpg"
   - "CC-5.JPG"
 map: |
-  <iframe class="alltrails" src="https://www.alltrails.com/widget/map/sculptured-beach-via-the-coast-trail-49afa3a?u=i&sh=0a5lyp" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
+  <iframe class="alltrails" src="https://www.alltrails.com/widget/map/sculptured-beach-via-the-coast-trail-49afa3a?elevationDiagram=false&u=i&sh=0a5lyp" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
 ---
 
 <div class="row">
