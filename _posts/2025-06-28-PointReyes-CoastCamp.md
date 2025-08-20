@@ -3,7 +3,7 @@ layout: outdoors
 
 title: Point Reyes National Seashore - Coast Camp
 short_title: June 2025 - Coast Camp
-tagline: I love long walks on the beach!
+tagline: My first time backpacking in Chacos!
 thumbnail: /assets/images/2025-backpacking/2025-06-PtReyes-CoastCamp/CC-thumb.jpg
 x: 3.3 miles
 type: Out-and-back
@@ -37,7 +37,7 @@ map: |
 </div>
 <div class="6u$ 12u$(small)">
 	<h3>Day 2</h3>
-	<p>I love waking up early on backpacking trips to enjoy the quiet and solitude of the mornings. I got up around 6 am - well before anyone else at the campground! I made my coffee, walked around the campground, saw some cool birds (lots of quails out in the mornings!), and enjoyed the peace. Once eveyrone else got up, we had a slow morning and packed up camp and started our walk back. This time, we walked along the Coast Trail for as much as we could before cutting back down to the beach and walkign the rest of the way to the parking lot. We stopped in Point Reyes Station on the way home for coffee and fresh cheese, and then made it back home to relax for the rest of the afternoon.</p>
+	<p>I love waking up early on backpacking trips to enjoy the quiet and solitude of the mornings. I got up around 6 am - well before anyone else at the campground! I made my coffee, walked around the campground, saw some cool birds (lots of quails out in the mornings!), and enjoyed the peace. Once eveyrone else got up, we had a slow morning and packed up camp and started our walk back. This time, we walked along the Coast Trail for as much as we could before cutting back down to the beach and walking the rest of the way to the parking lot. We stopped in Point Reyes Station on the way home for coffee and fresh cheese, and then made it back home to relax for the rest of the afternoon.</p>
 </div>
 </div>
 
